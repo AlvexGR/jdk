@@ -10,3 +10,15 @@ or either of these files:
 See <https://openjdk.org/> for more information about the OpenJDK
 Community and the JDK and see <https://bugs.openjdk.org> for JDK issue
 tracking.
+
+
+1. Install WSL: `wsl --install`
+2. Set default distro: `wsl -s Ubuntu`
+3. Login to Ubuntu and download JDK
+4. Run: `bash configure --with-boot-jdk=/home/nhannn_unix/jdk/jdk-21 --build=x86_64-unknown-linux-gnu --openjdk-target=x86_64-unknown-l
+inux-gnu`
+
+
+How to run:
+1. /mnt/c/NhanNguyen/Work/OpenJDK/Source/JDK/build/linux-x86_64-server-release/images/jdk/bin/javac <file>.java
+2. /mnt/c/NhanNguyen/Work/OpenJDK/Source/JDK/build/linux-x86_64-server-release/images/jdk/bin/java <file>
